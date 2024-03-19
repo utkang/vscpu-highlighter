@@ -1,0 +1,59 @@
+{
+  "name": "VerySimpleCPU Dark Theme",
+  "type": "dark",
+  "colors": {
+      "editor.background": "#1E1E1E",
+      "editor.foreground": "#D4D4D4",
+      "editor.lineHighlightBackground": "#3E3E42",
+      "editorLineNumber.foreground": "#858585",
+      "editor.selectionBackground": "#264F78"
+  },
+  "tokenColors": [
+      {
+          "scope": [
+              "keyword.control.verysimplecpu"
+          ],
+          "settings": {
+              "foreground": "#C586C0"
+          }
+      },
+      {
+          "scope": [
+              "variable.other.register.verysimplecpu"
+          ],
+          "settings": {
+              "foreground": "#4EC9B0"
+          }
+      },
+      {
+          "scope": [
+              "comment.line.double-slash.verysimplecpu",
+              "comment.block.verysimplecpu"
+          ],
+          "settings": {
+              "foreground": "#6A9955",
+              "fontStyle": "italic"
+          }
+      },
+      {
+        "scope": "variable.address.verysimplecpu",
+        "settings": {
+          "foreground": "#ffe599"
+        }
+      },
+      {
+        "scope": "constant.value.verysimplecpu",
+        "settings": {
+          "foreground": "#9CDCFE"
+        }
+      }
+      ,
+      {
+        "scope": "memory.value.verysimplecpu",
+        "settings": {
+          "foreground": "#68c4af"
+        }
+      }
+
+  ]
+}

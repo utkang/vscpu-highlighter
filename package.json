@@ -1,0 +1,50 @@
+{
+  "name": "vscpu-syntax-highlighter",
+  "displayName": "VerySimpleCPU Syntax Highlighter",
+  "publisher": "utkang",
+  "description": "Highlights the syntax for VerySimpleCPU.",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Keymaps"
+  ],
+  "contributes": {
+    "keybindings": [
+      {
+        "key": "ctrl+.",
+        "command": "workbench.action.showCommands"
+      }
+    ],
+    "languages": [
+      {
+        "id": "verysimplecpu",
+        "aliases": ["VerySimpleCPU", "vscpu"],
+        "extensions": [".asm"],
+        "configuration": "./language-configuration.json"
+      }
+    ],
+    "grammars": [
+      {
+        "language": "verysimplecpu",
+        "scopeName": "source.verysimplecpu",
+        "path": "./syntaxes/verysimplecpu.tmLanguage.json"
+      }
+    ],
+    "themes": [
+      {
+          "label": "VerySimpleCPU Dark Theme",
+          "uiTheme": "vs-dark",
+          "path": "./themes/dark-theme.json"
+      }
+  ]
+  },
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "pricing": "Free",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/microsoft/vscode-wordcount.git"
+  }
+
+}

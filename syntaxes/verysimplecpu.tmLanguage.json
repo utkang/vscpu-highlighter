@@ -1,0 +1,33 @@
+{
+  "scopeName": "source.verysimplecpu",
+  "name": "VerySimpleCPU",
+  "fileTypes": ["vscpu"],
+  "patterns": [
+    {
+      "match": "\\b(ADD|ADDi|NAND|NANDi|SRL|SRLi|LT|LTi|MUL|MULi|CP|CPi|CPI|CPIi|BZJ|BZJi)\\b",
+      "name": "keyword.control.verysimplecpu"
+    },
+    {
+      "match": "\\b(R1|R2|PC|IW)\\b",
+      "name": "variable.other.register.verysimplecpu"
+    },
+    {
+      "match": "(//.*)",
+      "name": "comment.line.double-slash.verysimplecpu"
+    },
+    {
+      "name": "variable.address.verysimplecpu",
+      "match": "\\b(\\d+)\\b(?=\\s+\\d+)"
+    },
+    {
+      "name": "memory.value.verysimplecpu",
+      "match": "(?<=:\\s)\\d+"
+    },
+    {
+      "name": "constant.value.verysimplecpu",
+      "match": "\\b(\\d+)\\b(?=\\s*$)"
+    }
+  ],
+  "repository": {},
+  "uuid": "8f5a8fa7-b977-4778-b103-ca127e7e71a3"
+}
