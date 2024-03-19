@@ -1,7 +1,7 @@
 {
   "name": "vscpu-syntax-highlighter",
   "displayName": "VerySimpleCPU Syntax Highlighter",
-  "publisher": "utkang",
+  "publisher": "utkangenc",
   "description": "Highlights the syntax for VerySimpleCPU.",
   "version": "0.0.1",
   "engines": {
@@ -44,7 +44,7 @@
   "pricing": "Free",
   "repository": {
     "type": "git",
-    "url": "https://github.com/microsoft/vscode-wordcount.git"
+    "url": "https://github.com/utkang/vscpu-highlighter"
   }
 
 }
